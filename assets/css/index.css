@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.carousel-item img {
+    max-height: 500px; /* Change this value as per your requirement */
+    width: 100%;
+    object-fit: cover;
+  }
+  .card-group {
+    margin: 20px 0;
+  }
+  
+  .card {
+    max-width: 300px;
+  }
+  
+  .card-img-top {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 20px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  .card {
+    margin: 10px;
+  }
+  /* .footer-block{
+    background-color: black;
+  } */
+  .services {
+    background-color: transparent;
+    border: none;
+}
+.ptechminds{
+    background-color: red;
+}
+  

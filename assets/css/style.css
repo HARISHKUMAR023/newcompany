@@ -1,0 +1,471 @@
+h1,h3{
+    color:#fff
+}
+ .nav-wrapper,.navbar.nav-scroll{
+    background-color:#fff
+}
+ .main-banner,.sub-list{
+    position:relative
+}
+ .pcb-slider .slick-dots li button:focus,.slick-initialized .banner-slider-list:focus{
+    outline:0
+}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{
+    margin:0;
+    padding:0;
+    border:0;
+    font:inherit;
+    vertical-align:baseline
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display:block
+}
+ body{
+    line-height:1;
+    font-family:'Source Sans Pro',sans-serif
+}
+ ol,ul{
+    list-style:none
+}
+ blockquote,q{
+    quotes:none
+}
+ blockquote:after,blockquote:before,q:after,q:before{
+    content:'';
+    content:none
+}
+ table{
+    border-collapse:collapse;
+    border-spacing:0
+}
+ a:hover{
+    text-decoration:none
+}
+ @font-face{
+    font-family:Gotham-Book;
+    src:url(../fonts/Gotham-Book.eot);
+    src:url(../fonts/Gotham-Book.eot?#iefix) format('embedded-opentype'),url(http://disystems.in/../fonts/Gotham-Book.otf) format('otf'),url(http://disystems.in/../fonts/halisr-black.svg) format('svg'),url(http://disystems.in/../fonts/Gotham-Book.ttf) format('truetype'),url(http://disystems.in/../fonts/Gotham-Book.woff) format('woff');
+    font-weight:400;
+    font-style:normal
+}
+ @font-face{
+    font-family:Gotham-Medium;
+    src:url(../fonts/Gotham-Medium.eot);
+    src:url(../fonts/Gotham-Medium.eot?#iefix) format('embedded-opentype'),url(http://disystems.in/../fonts/Gotham-Medium.otf) format('otf'),url(http://disystems.in/../fonts/Gotham-Medium.svg) format('svg'),url(http://disystems.in/../fonts/Gotham-Medium.ttf) format('truetype'),url(http://disystems.in/../fonts/Gotham-Medium.woff) format('woff');
+     font-weight:400;
+     font-style:normal
+}
+ h1{
+    font-size:45px
+}
+ h3{
+    font-size:31px;
+     line-height:41px
+}
+ h5{
+    font-family:gotham-medium;
+     font-size:19px;
+    margin-bottom:15px
+}
+ address{
+    font-size:17px;
+    line-height:27px
+}
+ p{
+    margin-top:15px;
+    font-family:Gotham-Book
+}
+ .company-logo{
+    width:65px;
+    margin-top:-10px
+}
+ .nav-wrapper{
+    padding:20px 0;
+    border-color:transparent;
+    transition:all ease-in-out .6s;
+    box-shadow:0 1px 1px -1px #000
+}
+.nav-logo{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    width:10px
+}
+.nav-logo span{
+    color:#047dad;
+    margin-left:10px;
+    letter-spacing:2px;
+    font-weight:700;
+    font-size:26px;
+    /*margin-top:14px*/
+}
+.sub-list .sub-cta i{
+    padding-left:135px;
+    font-weight:700;
+    font-size:19px
+}
+.sub-dropdown-list li a{
+    padding:20px 50px 20px 20px;
+    display:block;
+    color:#06709a;
+    transition:all linear .2s;
+    text-transform:uppercase;
+    font-weight:700
+}
+.main-banner,.slick-initialized .banner-slider-list{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    -webkit-align-items:center
+}
+.main-banner{
+    background:url(http://disystems.in/../img/banner-img.jpg) center no-repeat fixed;
+    background-size:cover;
+    height:638px;
+    padding-top:50px;
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center
+}
+.overlay-banner::before{
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color:#02f737;
+    opacity:.85
+}
+.nav-wrapper .navbar-nav li.main-list{
+    margin-right:10px
+}
+.nav-wrapper .navbar-nav li a.main-cta{
+    font-size:17px;
+    color:#333;
+    font-weight:700;
+    transition:all linear .6s
+}
+.nav-wrapper .navbar-nav li a.main-cta:hover{
+    color:#3bf104
+}
+.navlist-right .navbar-right{
+    margin-top:10px
+}
+.slick-initialized .banner-slider-list{
+    height:100%;
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center
+}
+.slider-list .slick-track{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center
+}
+.banner-span-text{
+    display:inline-block;
+    margin:20px 0;
+    color:#fff;
+    font-size:24px;
+    line-height:34px
+}
+.banner-para{
+    color:#fff;
+    font-size:19px;
+    line-height:29px;
+    padding-right:51px;
+    font-weight:600;
+}
+.dropdown-cta{
+    position:relative
+}
+.dropdown-list li a.sub-cta{
+    display:block;
+    color:#25d506;
+    padding:15px 0 15px 20px;
+    transition:all linear .2s;
+    text-transform:uppercase;
+    font-weight:700
+}
+.career-container,.career-content .container{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    -webkit-align-items:center
+}
+.dropdown-cta .main-cta i{
+    padding-left:5px;
+    font-weight:700;
+    font-size:19px
+}
+.arrow-left,.arrow-right{
+    position:absolute;
+    top:50%
+}
+.arrow-left{
+    left:3%;
+    -webkit-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform:rotate(180deg)
+}
+.arrow-right{
+    right:3%
+}
+.disable-arrow{
+    pointer-events:none;
+    opacity:.5
+}
+.career-banner{
+    background:url(../img/careers.jpg) no-repeat;
+    background-size:cover;
+    height:450px
+}
+.career-banner:before,.pcb-banner:before{
+    height:450px
+}
+.assembly-banner:before{
+    height:467
+}
+.career-container{
+    height:450px;
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center
+}
+h1.career-heading{
+    z-index:1;
+    font-size:50px;
+    letter-spacing:2px
+}
+.career-content{
+    padding:30px 0
+}
+.career-list li{
+    margin:25px 0;
+    font-size:17px;
+    line-height:27px
+}
+.career-content .container{
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center
+}
+.footer-block{
+    background-color:#0c0c0c;
+    padding:25px 0
+}
+.social-media-list li a{
+    border:1px solid #aab2bd;
+    border-radius:50%;
+    width:35px;
+    height:35px;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    margin-right:30px;
+    transition:all ease .6s
+}
+.social-media-list li a.first-footer,.social-media-list li a.first-footer:hover{
+    border:0;
+    width:auto;
+    font-size:18px
+}
+.social-media-list li a:hover{
+    border:1px solid transparent
+}
+.social-media-list li a i{
+    font-size:18px;
+    color:#6d7279;
+    transition:all ease .4s
+}
+.social-media-list li a:hover i{
+    color:#fff
+}
+.pcb-features p.pcb-services,.quality-heading{
+    color:#50ef06;
+    font-family:Gotham-Medium
+}
+.social-media-list{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex
+}
+.footer-container{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    justify-content:space-between
+}
+.fb-cta:hover{
+    background-color:#07ec17
+}
+.tweet-cta:hover{
+    background-color:#35f006
+}
+.linkedin-cta:hover{
+    background-color:#2df704
+}
+.pcb-banner{
+    background:url(../img/pcb-banner.jpeg) center no-repeat fixed;
+    background-size:cover;
+    height:450px
+}
+.pcb-features{
+    padding:50px 0
+}
+.pcb-features p.pcb-services{
+    margin-bottom:20px;
+    font-size:20px;
+    line-height:30px
+}
+.pcb-feature-list li{
+    font-family:Gotham-Medium;
+    position:relative;
+    margin-left:40px;
+    margin-bottom:30px;
+    padding-left:13px;
+    line-height:25px
+}
+.analysis-list li:before,.pcb-feature-list.services-list li:before{
+    background:url(../img/tick.png) no-repeat!important;
+    top:6px!important
+}
+.services-list{
+    -webkit-column-gap:150px;
+    -moz-column-gap:150px;
+    column-gap:150px;
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2
+}
+.pcb-feature-list{
+    margin-top:35px
+}
+.pcb-feature-list li:before{
+    content:"";
+    position:absolute;
+    left:-23px;
+    top:0;
+    background:url(http://disystems.in/../img/right-arrow.png) no-repeat;
+    width:25px;
+    height:22px
+}
+.pcb-description{
+    padding:30px 0
+}
+.pcb-description p{
+    font-size:17px;
+    line-height:30px;
+    margin-bottom:25px
+}
+.pcb-services-container{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center
+}
+.quality-sec{
+    background-color:#f5f5f5;
+    padding:40px 0
+}
+.quality-para{
+    color:#000;
+    font-size:17px;
+    line-height:27px;
+    margin:35px 35px 0
+}
+.home-pcb-services{
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column
+}
+.library-banner{
+    background:url(http://disystems.in/../img/library-banner.jpg) center no-repeat fixed
+}
+.library-features p{
+    margin:30px 0;
+    line-height:27px;
+    font-size:17px
+}
+.library-features h3{
+    margin-bottom:40px
+}
+.signal-list li:first-child,.signal-list li:nth-child(2){
+    margin-bottom:15px
+}
+.dff-banner{
+    background:url(http://disystems.in/../img/dff-banner.jpg) center no-repeat fixed
+}
+.about-section .row{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center
+}
+.pcb-slider img{
+    transition:all .5s ease-in-out;
+    -webkit-transform:scale(1.25,1.25);
+    -ms-transform:scale(1.25,1.25);
+    transform:scale(1.25,1.25)
+}
+.pcb-slider .slick-active img{
+    -webkit-transform:scale(1,1);
+    -ms-transform:scale(1,1);
+    transform:scale(1,1)
+}
+.pcb-slider .slick-dots{
+    display:-webkit-flex!important;
+    display:-ms-flexbox!important;
+    display:flex!important;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    padding-top:10px
+}
+.pcb-slider .slick-dots li button{
+    text-indent:-9999px;
+    margin-right:10px;
+    background-color:transparent;
+    border:2px solid #1eed03;
+    border-radius:50%;
+    padding:0;
+    width:13px;
+    height:13px;
+    transition:all ease-in-out .5s
+}
+.pcb-slider .slick-dots li.slick-active button{
+    background-color:#2deb03
+}
+.terms-block{
+    padding-top:140px
+}
+ .container{
+    width:92%
+}
+.footer-text{
+    color: white;
+    font-weight: 600px;
+}
