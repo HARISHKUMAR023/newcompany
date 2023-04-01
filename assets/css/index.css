@@ -3,6 +3,9 @@
     padding: 0;
     border: 0;
 }
+:root {
+    --primary-color: #f0b60a;
+  }
 .carousel-item img {
     max-height: 500px; /* Change this value as per your requirement */
     width: 100%;
@@ -56,10 +59,10 @@ box-shadow: -5px 1px 20px 0px rgba(0,0,0,0.75);
     max-width: 1000px;
 }
 .navbar{
-    background-color: #2af0cf !important;
+    background-color: var(--primary-color) !important;
 }
 .navbar{
-    background-color: aquamarine;
+    background-color:var(--primary-color);
     
 }
 
@@ -73,11 +76,11 @@ box-shadow: -5px 1px 20px 0px rgba(0,0,0,0.75);
 }
 .services-back{
     padding-top: 20px;
-    background-color: #2af0cf;
+    background-color: var(--primary-color);
 }
 .content-back{
     padding-top: 20px;
-    background-color: #2af0cf !important;
+    background-color: var(--primary-color) !important;
     padding-bottom: 20px;
 }
 /* .text-display{
@@ -163,7 +166,7 @@ box-shadow: -5px 1px 20px 0px rgba(0,0,0,0.75);
     border-radius: 0.2rem;
   }
   .OUR-EXPERTISE{
-    background-color: #2af0cf !important;
+    background-color: var(--primary-color) !important;
     
     padding: 50px;
   }
@@ -175,6 +178,7 @@ box-shadow: -5px 1px 20px 0px rgba(0,0,0,0.75);
     color: black;
     font-weight: 600;
     text-decoration: none;
+    text-align: center;
   }
   .list-e>a:hover{
     background-color: green;
