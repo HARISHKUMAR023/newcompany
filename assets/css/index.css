@@ -13,11 +13,18 @@
   }
   
   .card {
+ 
+  }
+  .card-s{
     max-width: 300px;
+    -webkit-box-shadow: -5px 1px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 1px 20px 0px rgba(0,0,0,0.75);
+box-shadow: -5px 1px 20px 0px rgba(0,0,0,0.75);
   }
   
   .card-img-top {
-    height: 150px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
   }
   
@@ -42,10 +49,34 @@
     background-color: transparent;
     border: none;
 }
-.ptechminds{
+/* .ptechminds{
     background-color: red;
-}
+} */
 .container{
     max-width: 1000px;
+}
+.navbar{
+    background-color: #2af0cf !important;
+}
+.navbar{
+    background-color: aquamarine;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link{
+    font-weight: 600 !important;
+    color:black !important;
+}
+.ptechminds{
+    padding-bottom: 20px;
+}
+.services-back{
+    padding-top: 20px;
+    background-color: #2af0cf;
+}
+.content-back{
+    padding-top: 20px;
+    background-color: #2af0cf !important;
+    padding-bottom: 20px;
 }
   
