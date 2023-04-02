@@ -1,0 +1,29 @@
+.bg-image {
+    background-image: url('../img/newimg/aboutus.png');
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+  }
+p{
+    padding: 30px,60px !important;
+    line-height: 30px;
+}
+  
+  @media (max-width: 768px) {
+    .bg-image {
+      background-size: contain;
+      height: auto;
+    }
+  }
+  .about{
+    margin: 50px;
+  }
+  h4{
+    padding-top: 20px;
+  }
+  .bg-image-contact {
+    background-image: url('../img/newimg/contactus.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+  }

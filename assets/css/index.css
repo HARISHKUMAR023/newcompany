@@ -4,7 +4,7 @@
     border: 0;
 }
 :root {
-    --primary-color: #f0b60a;
+    --primary-color: #faf9f8;
   }
 .carousel-item img {
     max-height: 500px; /* Change this value as per your requirement */
@@ -184,4 +184,13 @@ box-shadow: -5px 1px 20px 0px rgba(0,0,0,0.75);
     background-color: green;
     color: white;
   }
-  
+  /* .container{
+    margin-left: 0;
+    margin-right: 0;
+  }
+   */
+   /* .row{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+   } */
