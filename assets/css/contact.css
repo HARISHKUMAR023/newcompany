@@ -1,0 +1,6 @@
+.bg-image-contact {
+    background-image: url('../img/newimg/contactus.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+  }
